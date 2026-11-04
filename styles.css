@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+:root { --navy:#172B46; --gold:#B99A62; --ink:#202B3C; --muted:#6D7888; --paper:#F5F6F8; }
+html, body, [class*="css"] { font-family:'DM Sans',sans-serif; }
+.stApp { background:var(--paper); color:var(--ink); }
+section[data-testid="stSidebar"] { background:#172B46; }
+section[data-testid="stSidebar"] * { color:#F4F6FA !important; }
+.page-header { padding:1.5rem 0 1.2rem; border-bottom:1px solid #DDE2E8; margin-bottom:1.5rem; }
+.page-header .eyebrow { color:var(--gold); font-size:.72rem; letter-spacing:.16em; font-weight:700; }
+.page-header h1 { font-family:'Playfair Display',serif; color:var(--navy); font-size:2.35rem; margin:.25rem 0; }
+.page-header p { color:var(--muted); margin:0; }
+.metric { background:white; border:1px solid #E4E8ED; border-radius:12px; padding:1.1rem; min-height:105px; }
+.metric span { display:block; color:#6D7888; font-size:.82rem; }
+.metric strong { display:block; color:#172B46; font-size:2rem; margin-top:.35rem; }
+.stButton>button[kind="primary"], .stFormSubmitButton>button[kind="primary"] { background:#172B46; border:1px solid #172B46; border-radius:8px; }
+.stButton>button[kind="primary"]:hover { background:#263F60; border-color:#263F60; }
+div[data-testid="stDataFrame"] { background:white; border-radius:10px; }
+.footer { margin-top:3rem; padding:1rem 0; border-top:1px solid #DDE2E8; color:#8993A0; font-size:.75rem; text-align:center; }
